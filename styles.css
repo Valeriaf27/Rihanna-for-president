@@ -1,0 +1,77 @@
+body{
+    font-family:'Bungee', cursive;
+}
+h1{
+    font-size:50px; 
+    font-family: 'Unlock', cursive;
+}
+h2{
+    font-size:30px;
+    font-family: 'Bree Serif', serif;   
+}
+
+
+
+
+
+
+#donate h2 {text-shadow: 2px 2px #18BDF9;}
+
+#pictures h2 {text-shadow: 2px 2px #D318F9;}
+p {
+    font-size: 25px;
+}
+    
+#header, #donate, #pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#header{
+    color:black;
+    background-image:url("https://st2.depositphotos.com/5460552/8848/i/950/depositphotos_88482114-stock-photo-blue-glitter-background.jpg");
+    background-size:100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: green;
+    color: black;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#donate button:hover {
+    background: yellow;
+    color: black;
+}
